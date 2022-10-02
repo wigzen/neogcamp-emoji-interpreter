@@ -49,12 +49,14 @@ export default function App() {
       />
       <h2> {emoji} </h2>
       <h3> {meaning} </h3>
-      {emojis.map((emoji) => (
-        <span onClick={() => emojiClickHandler(emoji)} className="emo">
-          {" "}
-          {emoji}{" "}
-        </span>
-      ))}
+      <div className="box">
+        {emojis.map((emoji) => (
+          <span onClick={() => emojiClickHandler(emoji)} className="emo">
+            {" "}
+            {emoji}{" "}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }

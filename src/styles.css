@@ -1,6 +1,14 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid black;
 }
 .emo {
   font-size: 2rem;
@@ -11,6 +19,9 @@
   transform: scale(2);
 }
 input {
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 20px rebeccapurple;
   padding: 1rem;
   min-width: 80%;
 }
