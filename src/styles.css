@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.emo {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.emo:hover {
+  transform: scale(2);
+}
+input {
+  padding: 1rem;
+  min-width: 80%;
+}
